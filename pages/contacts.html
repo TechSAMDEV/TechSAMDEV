@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | TechSAM</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/gallery/favicon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/contacts.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="index.html" class="logo">TechSAM</a>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="/index.html#hero">Home</a></li>
+                <li><a href="/index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        <a href="contacts.html" class="contacts">Contacts</a>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section id="hero">
+        <h1>Contact Me</h1>
+        <p>
+            Have a project in mind, a system requirement to build, or a software application opportunity? Drop a message
+            through the form or reach out directly—let’s build something exceptional together.
+        </p>
+    </section>
+
+    <!-- Contact Main Container -->
+    <main class="contact-container">
+        <!-- Section 1: Contact Information & Direct Chat -->
+        <section class="contact-info-card">
+            <h2>Let's Build Together</h2>
+            <p class="contact-subtitle">
+                Have a project idea, system requirement, or software engineering opportunity? Reach out directly or send
+                a message through the form.
+            </p>
+
+            <div class="info-details">
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <a href="mailto:samuelsuperguy@gmail.com" class="info-link">samuelsuperguy@gmail.com</a>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <a href="tel:+2348128133345" class="info-link">+234 (81) 281 333 45</a>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-label">Location:</span>
+                    <span>Available Worldwide / Remote</span>
+                </div>
+            </div>
+
+            <!-- Pre-filled WhatsApp Custom Link Button -->
+            <!-- Replace '2340000000000' with your actual phone number in international format without '+' -->
+            <a href="https://wa.me/2348128133345?text=Hi%20Samuel,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project!"
+                target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </section>
+
+        <!-- Section 2: Contact Form -->
+        <section class="contact-form-card">
+            <h2>Send a Message</h2>
+            <form id="contact-form" action="https://formspree.io/f/mvkkonjb" method="POST">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" placeholder="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+123 456 7890">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Tell me about your project, timeline, or engineering needs..." required></textarea>
+                </div>
+
+                <button type="submit" id="submit-btn" class="submit-btn">Send Message</button>
+
+                <!-- Success & Error Feedback Message Box -->
+                <div id="form-status" class="form-status"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Scroll To Top Button with Font Awesome Icon -->
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        &copy; <span id="year"></span> TechSAM. All rights reserved. |
+        <a href="mailto:samuelsuperguy@gmail.com" style="color:#38bdf8;">Email Me</a>
+    </footer>
+
+    <script src="/assets/scripts/scripts.js"></script>
+</body>
+
+</html>
