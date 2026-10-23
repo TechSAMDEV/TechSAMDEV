@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechSAM | Portfolio</title>
+
+  <!-- favicon -->
+   <link rel="shortcut icon" href="./assets/gallery/favicon.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+
+</head>
+
+<body>
+
+  <!-- This is a Header-->
+  <header>
+    <div>
+      <a href="index.html" class="logo">TechSAM</a>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="./pages/projects.html">Projects</a></li>
+        <li><a href="./pages/services.html">Services</a></li>
+      </ul>
+    </nav>
+    <a href="./pages/contacts.html" class="contacts">Contacts</a>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- This is a Hero Section-->
+  <section id="hero">
+    <h1>TechSAM</h1>
+    <p>Full-Stack Developer • IT Specialist • Software Engineer</p>
+    <a href="./pages/contacts.html" class="btn">Hire Me</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello I'm Samuel, an IT Specilist and Full-Stack Developer.
+    </p>
+    <p>
+      I am a Full-Stack Software Developer dedicated to solving real-world problems through technology. I design and
+      build end-to-end software solutions—focusing on intuitive interfaces, reliable architecture, and systems that
+      solve actual pain points. My goal is simple: transform complex real-world challenges into practical, scalable, and
+      high-impact digital products.
+    </p>
+    <div>
+      <a href="./pages/services.html" class="cta-btn">View Services</a>
+    </div>
+  </section>
+
+  <section class="projects-cta-section">
+    <div class="container cta-content">
+      <h2>Explore My Work</h2>
+      <p>
+        From full-stack software applications to automated systems, see how I solve real-world problems through clean
+        code and scalable design.
+      </p>
+      <a href="./pages/projects.html" class="cta-button">View All Projects &rarr;</a>
+    </div>
+  </section>
+
+  <section class="contact-preview-section">
+    <div class="container">
+      <div class="cta-card contact-card">
+        <div class="cta-text">
+          <span class="badge">Start a Conversation</span>
+          <h2>Ready to discuss your next software solution?</h2>
+          <p>
+            I'm always open to discussing new software projects, collaborations, or opportunities to solve real-world
+            problems.
+          </p>
+        </div>
+        <div class="cta-action">
+          <a href="./pages/contacts.html" class="cta-button-contact">Contact Me &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll To Top Button with Font Awesome Icon -->
+  <button id="scrollToTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Update footer like this -->
+  <footer>
+    &copy; <span id="year"></span> TechSAM. All rights reserved. |
+    <a href="mailto:samuelsuperguy@gmail.com" style="color:#38bdf8;">Email Me</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+  <script src="./assets/scripts/scripts.js"></script>
+
+</body>
+
+</html>
