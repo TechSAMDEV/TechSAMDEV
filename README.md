@@ -1,6 +1,6 @@
-# Hi 👋, I'm Samuel (techsam)
+# Hi 👋, I'm Samuel (TechSAM)
 
-I'm a **Full-Stack Software Engineer** focused on architecting scalable, high-performance, and user-centric applications. I thrive in engineering environments—collaborating closely with product teams, designers, and engineers to transform complex ideas into impactful software solutions.
+I'm a **Full-Stack Developer & Software Engineer** focused on architecting scalable, high-performance, and user-centric applications. I thrive in engineering environments—collaborating closely with product teams, designers, and engineers to transform complex ideas into impactful software solutions.
 
 ---
 
