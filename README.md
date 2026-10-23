@@ -45,7 +45,7 @@ I'm a **Full-Stack Developer & Software Engineer** focused on architecting scala
 ### 📬 Connect with Me
 
 <p align="left">
-  <a href="https://github.com/techsam">
+  <a href="https://github.com/TechSAMDEV">
     <img src="https://img.shields.io/badge/GitHub-techsam-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
