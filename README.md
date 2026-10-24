@@ -50,4 +50,10 @@ I'm a **Full-Stack Developer & Software Engineer** focused on architecting scala
   </a>
 </p>
 
+<p align="left">
+  <a href="https://github.com/TechSAMDEV">
+    <img src="./assets/gallery/favicon.jpg" alt="Portfolio" />
+  </a>
+</p>
+
 ---
