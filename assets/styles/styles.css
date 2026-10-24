@@ -176,6 +176,9 @@ section {
 
 #about div {
     margin-top: 30px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
 }
 
 #about div .cta-btn {
@@ -187,6 +190,17 @@ section {
 
 #about div .cta-btn:hover {
     background-color: var(--color-primary-hover);
+}
+
+#about div .download_cv {
+    background-color: var(--color-muted);
+    color: var(--color-surface);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+#about div .download_cv:hover {
+    background-color: hsl(215, 20%, 50%);
 }
 
 /* Section Wrapper */
@@ -412,6 +426,12 @@ footer {
         width: 42px;
         height: 42px;
         font-size: 16px;
+    }
+
+    #about div {
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
     }
 }
 

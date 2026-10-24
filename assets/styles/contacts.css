@@ -68,6 +68,30 @@
     margin-bottom: 2.5rem;
 }
 
+.info-media {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.info-media i {
+    font-size: 2rem;
+    transition: all var(--transition-base);
+}
+
+.info-media .github {
+    color: var(--color-muted);
+}
+
+.info-media .linkedin {
+    color: var(--color-button-hover);
+}
+
+.info-media i:hover {
+    color: var(--color-input);
+}
+
+
 .info-label {
     font-weight: 600;
     color: var(--color-primary);
