@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore TechSAM's web development, automation, and software mentorship services.">
+    <title>Services | TechSAM</title>
+
+    <link rel="shortcut icon" href="/assets/gallery/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/projects.css">
+    <link rel="stylesheet" href="/assets/styles/services.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/index.html" class="logo">TechSAM</a>
+        </div>
+        <nav aria-label="Main navigation">
+            <ul id="menu">
+                <li><a href="/index.html#hero">Home</a></li>
+                <li><a href="/index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html" class="active" aria-current="page">Services</a></li>
+            </ul>
+        </nav>
+        <a href="contacts.html" class="contacts">Contacts</a>
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" aria-label="Toggle navigation menu"
+            aria-controls="menu">☰</button>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <div class="hero-content">
+                <span class="hero-badge">Services &amp; Capabilities</span>
+                <h1>Digital products built to work beautifully and scale confidently.</h1>
+                <p>
+                    From polished front-end experiences to dependable full-stack applications and automation,
+                    I help turn practical ideas into useful software.
+                </p>
+                <a class="services-hero-cta" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+            </div>
+        </section>
+
+        <section class="tech-carousel-section" aria-label="Technologies and tools">
+            <h2 class="carousel-title">Tools for building the right solution</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-item"><img src="/assets/gallery/html5.svg" alt=""><span>HTML5</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/css3.svg" alt=""><span>CSS3</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/javascript.svg" alt=""><span>JavaScript</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/react.svg" alt=""><span>React</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/next.svg" alt=""><span>Next.js</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/typescript.svg" alt=""><span>TypeScript</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/python.svg" alt=""><span>Python</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/tailwind.svg" alt=""><span>Tailwind CSS</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/bootstrap.svg" alt=""><span>Bootstrap</span></div>
+                    <div class="carousel-item"><img src="/assets/gallery/postgresql.svg" alt=""><span>PostgreSQL</span></div>
+
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/html5.svg" alt=""><span>HTML5</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/css3.svg" alt=""><span>CSS3</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/javascript.svg" alt=""><span>JavaScript</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/react.svg" alt=""><span>React</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/next.svg" alt=""><span>Next.js</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/typescript.svg" alt=""><span>TypeScript</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/python.svg" alt=""><span>Python</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/tailwind.svg" alt=""><span>Tailwind CSS</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/bootstrap.svg" alt=""><span>Bootstrap</span></div>
+                    <div class="carousel-item" aria-hidden="true"><img src="/assets/gallery/postgresql.svg" alt=""><span>PostgreSQL</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section" id="services">
+            <div class="section-header">
+                <span class="section-eyebrow">Work with me</span>
+                <h2>Development services</h2>
+                <p>Choose a starting point. Every project is scoped around your goals, timeline, and requirements.</p>
+            </div>
+
+            <div class="currency-toggle-wrapper">
+                <button id="currency-toggle-btn" class="currency-btn" type="button" aria-pressed="false">
+                    Show prices in NGN (₦)
+                </button>
+                <p class="currency-note">NGN prices are estimates based on a rate of $1 = ₦1,500.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-kicker">Launch</span>
+                        <h3>Front-End Build</h3>
+                        <p>Responsive, polished websites and interfaces that make a strong first impression.</p>
+                        <div class="price" aria-label="Starting at 350 US dollars">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="350">350</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Responsive HTML, CSS, and JavaScript</li>
+                        <li>Tailwind CSS or Bootstrap styling</li>
+                        <li>Cross-browser compatibility</li>
+                        <li>Basic search optimization</li>
+                        <li>One revision cycle</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn">Start a conversation</a>
+                </article>
+
+                <article class="pricing-card popular">
+                    <span class="popular-badge">Most popular</span>
+                    <div class="card-header">
+                        <span class="card-kicker">Build</span>
+                        <h3>Full-Stack Web App</h3>
+                        <p>Custom applications with considered interfaces and dependable backend architecture.</p>
+                        <div class="price" aria-label="Starting at 850 US dollars">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="850">850</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>React or Next.js front end</li>
+                        <li>Python backend development</li>
+                        <li>Database and API integration</li>
+                        <li>Authentication and user flows</li>
+                        <li>Responsive, scalable foundations</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn primary-btn">Plan your project</a>
+                </article>
+
+                <article class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-kicker">Optimize</span>
+                        <h3>Automation &amp; Systems</h3>
+                        <p>Practical tools and workflows that reduce repetitive work and connect your systems.</p>
+                        <div class="price" aria-label="Starting at 1,200 US dollars">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="1200">1,200</span><span class="price-suffix">+</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Custom Python automation</li>
+                        <li>API integrations and data processing</li>
+                        <li>Scheduled workflow setup</li>
+                        <li>Background task configuration</li>
+                        <li>Clear handover documentation</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn">Discuss a custom build</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="pricing-section courses-bg" id="mentorship">
+            <div class="section-header">
+                <span class="section-eyebrow">Learn by building</span>
+                <h2>Courses &amp; mentorship</h2>
+                <p>Develop practical skills with guided projects, thoughtful feedback, and support at your pace.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-kicker">Learn independently</span>
+                        <h3>Self-Paced Track</h3>
+                        <p>A flexible curriculum and resources for independent learners.</p>
+                        <div class="price" aria-label="99 US dollars">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="99">99</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Full module access</li>
+                        <li>Starter code and project templates</li>
+                        <li>Guided learning resources</li>
+                        <li>Community access</li>
+                        <li>Lifetime content updates</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn">Ask about the track</a>
+                </article>
+
+                <article class="pricing-card popular">
+                    <span class="popular-badge">Recommended</span>
+                    <div class="card-header">
+                        <span class="card-kicker">Learn with guidance</span>
+                        <h3>Full-Stack Bootcamp</h3>
+                        <p>Structured learning with hands-on projects and direct code feedback.</p>
+                        <div class="price" aria-label="299 US dollars">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="299">299</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Everything in the self-paced track</li>
+                        <li>Real-world portfolio projects</li>
+                        <li>Code reviews and feedback</li>
+                        <li>Live Q&amp;A sessions</li>
+                        <li>Portfolio guidance</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn primary-btn">Ask about the bootcamp</a>
+                </article>
+
+                <article class="pricing-card">
+                    <div class="card-header">
+                        <span class="card-kicker">One-to-one support</span>
+                        <h3>1-on-1 Mentorship</h3>
+                        <p>Personal guidance to help you grow your skills and move forward with confidence.</p>
+                        <div class="price" aria-label="500 US dollars per month">
+                            <span class="currency-symbol" aria-hidden="true">$</span>
+                            <span class="price-amount" data-usd="500">500</span>
+                            <span class="price-suffix">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Weekly one-to-one calls</li>
+                        <li>Personalized code and design reviews</li>
+                        <li>Debugging and system design practice</li>
+                        <li>Interview and career guidance</li>
+                        <li>Direct chat support</li>
+                    </ul>
+                    <a href="contacts.html" class="pricing-btn">Ask about mentorship</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="services-contact">
+            <div>
+                <span class="section-eyebrow">Have something specific in mind?</span>
+                <h2>Let’s shape the right solution for you.</h2>
+                <p>Tell me what you’re working on and we can work out the best next step together.</p>
+            </div>
+            <a class="pricing-btn primary-btn" href="contacts.html">Get in touch <span aria-hidden="true">→</span></a>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" aria-label="Scroll to top" type="button">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <footer class="services-footer">
+        &copy; <span id="year"></span> TechSAM. All rights reserved. |
+        <a href="mailto:samuelsuperguy@gmail.com">Email Me</a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="/assets/scripts/scripts.js"></script>
+    <script src="/assets/scripts/pricing_btn.js"></script>
+</body>
+
+</html>

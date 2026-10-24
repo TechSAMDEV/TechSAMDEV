@@ -125,6 +125,9 @@ nav ul li a:hover {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
+    background-color: var(--color-surface);
+    border: none;
+    color: var(--color-text);
 }
 
 section {
