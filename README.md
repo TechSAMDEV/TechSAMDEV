@@ -7,8 +7,8 @@ I'm a **Full-Stack Developer & Software Engineer** focused on architecting scala
 ### 🚀 What I'm Up To
 
 * 🛠️ **Key Projects:**
-  * **Project GapLogic** — Automated retail arbitrage sniper and data analytics engine.
-  * **Project CardFlow** — Automated design generation and business card engine.
+  * **Emko-Secured** — Built a platform for a Tech company.
+  * **Diary-girl** — Built a platforn for a data analytic school.
 * 🌱 **Currently Exploring:** Advanced system architecture, distributed patterns, and automated software workflows.
 * 👯 **Open For Collaboration:**
   * Paid freelance & contract software engineering roles
