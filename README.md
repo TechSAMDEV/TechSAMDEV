@@ -52,7 +52,7 @@ I'm a **Full-Stack Developer & Software Engineer** focused on architecting scala
 
 <p align="left">
   <a href="https://github.com/TechSAMDEV">
-    <img src="./assets/gallery/favicon.jpg" alt="Portfolio" width="200" height="200" />
+    <img src="./assets/gallery/favicon.jpg" alt="Portfolio" width="100" height="50" />
   </a>
 </p>
 
