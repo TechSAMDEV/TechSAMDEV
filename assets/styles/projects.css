@@ -93,12 +93,6 @@
     display: flex;
     width: max-content;
     gap: 2rem;
-    animation: scrollCarousel 30s linear infinite;
-}
-
-/* Pause animation when user hovers over the track */
-.carousel-track:hover {
-    animation-play-state: paused;
 }
 
 /* Individual Skill Card */
@@ -130,17 +124,6 @@
     color: #f8fafc;
     font-weight: 500;
     font-size: 0.95rem;
-}
-
-/* Infinite Scroll Keyframes */
-@keyframes scrollCarousel {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-50% - 1rem));
-    }
 }
 
 /* Projects Section Layout */
