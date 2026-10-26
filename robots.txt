@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techsamdev.vercel.app/sitemap.xml
